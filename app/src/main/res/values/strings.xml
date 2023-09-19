@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pantalla1</string>
+    <string name="Number_t">Número de teléfono</string>
+    <string name="iniciar">Iniciar Seccion</string>
+    <string name="password" >Contraseña</string>
+    <string name="pato">P A T I T O</string>
+    <string name="sa">-S.A DE CV-</string>
+</resources>

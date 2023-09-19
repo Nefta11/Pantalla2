@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity"
+    android:background="@color/primario">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="220dp"
+        android:src="@drawable/pato" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pato"
+        android:textSize="50dp"
+        android:textColor="@color/letrastitulo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sa"
+        android:textColor="@color/letrassubtitulo"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de usuario"
+        android:textSize="20sp"
+        android:textColor="@color/letrastitulo"
+        android:layout_marginTop="1dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:layout_marginTop="1dp"
+        android:background="@color/secundario"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Number_t"
+        android:textColor="@color/letrastitulo"
+        android:textSize="20sp"
+        android:layout_marginTop="1dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="1dp"
+        android:inputType="textPassword"
+        android:background="@color/secundario"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/letrastitulo"
+        android:textSize="20sp"
+        android:layout_marginTop="1dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="1dp"
+        android:inputType="textPassword"
+        android:background="@color/secundario"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirme Contraseña"
+        android:textColor="@color/letrastitulo"
+        android:textSize="20sp"
+        android:layout_marginTop="1dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:background="@color/secundario"
+        android:layout_marginTop="1dp"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarme"
+        android:backgroundTint="@color/letrastitulo"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No tienes una cuenta? Crea aquí"
+        android:textSize="16sp"
+        android:textColor="@color/letrassubtitulo"
+        android:gravity="center"
+        android:layout_marginTop="2dp" />
+</LinearLayout>

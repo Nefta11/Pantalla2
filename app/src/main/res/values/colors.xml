@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secundario">#F1EDED</color>
+    <color name="primario">#050505</color>
+    <color name="letrastitulo">#ff0080</color>
+    <color name="letrassubtitulo">#0000FF</color>
+
+
+</resources>
